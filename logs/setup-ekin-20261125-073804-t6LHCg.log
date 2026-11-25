@@ -1,0 +1,84 @@
+2026-11-25T07:38:04+03:00
+ekin
+Project: /home/ekin/Desktop/cmp625/CMP625
+cf9db13ff73bf954206418b20f08b14180e87c0e
+ M README.md
+?? .gitignore
+?? docs/
+?? logs/
+?? scripts/
++ main
++ command -v git
+/usr/bin/git
++ command -v tar
+/usr/bin/tar
++ mkdir -p /home/ekin/Desktop/cmp625/CMP625/.cache
++ [[ -e /home/ekin/Desktop/cmp625/CMP625/ns3 ]]
++ fetch_source ns3 https://github.com/nsnam/ns-3-dev-git.git ac2ed49e020860381f9f69753dd94f6fc12e1edf
++ local name=ns3 url=https://github.com/nsnam/ns-3-dev-git.git revision=ac2ed49e020860381f9f69753dd94f6fc12e1edf
++ local cache=/home/ekin/Desktop/cmp625/CMP625/.cache/ns3.git
++ [[ ! -d /home/ekin/Desktop/cmp625/CMP625/.cache/ns3.git ]]
++ git init --bare /home/ekin/Desktop/cmp625/CMP625/.cache/ns3.git
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/ekin/Desktop/cmp625/CMP625/.cache/ns3.git/
++ git --git-dir=/home/ekin/Desktop/cmp625/CMP625/.cache/ns3.git cat-file -e 'ac2ed49e020860381f9f69753dd94f6fc12e1edf^{commit}'
++ git --git-dir=/home/ekin/Desktop/cmp625/CMP625/.cache/ns3.git fetch --depth=1 https://github.com/nsnam/ns-3-dev-git.git ac2ed49e020860381f9f69753dd94f6fc12e1edf
+From https://github.com/nsnam/ns-3-dev-git
+ * branch            ac2ed49e020860381f9f69753dd94f6fc12e1edf -> FETCH_HEAD
++ git --git-dir=/home/ekin/Desktop/cmp625/CMP625/.cache/ns3.git cat-file -e 'ac2ed49e020860381f9f69753dd94f6fc12e1edf^{commit}'
++ fetch_source plr https://github.com/neje/IeeeAccess2019.git 4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3
++ local name=plr url=https://github.com/neje/IeeeAccess2019.git revision=4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3
++ local cache=/home/ekin/Desktop/cmp625/CMP625/.cache/plr.git
++ [[ ! -d /home/ekin/Desktop/cmp625/CMP625/.cache/plr.git ]]
++ git init --bare /home/ekin/Desktop/cmp625/CMP625/.cache/plr.git
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/ekin/Desktop/cmp625/CMP625/.cache/plr.git/
++ git --git-dir=/home/ekin/Desktop/cmp625/CMP625/.cache/plr.git cat-file -e '4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3^{commit}'
++ git --git-dir=/home/ekin/Desktop/cmp625/CMP625/.cache/plr.git fetch --depth=1 https://github.com/neje/IeeeAccess2019.git 4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3
+From https://github.com/neje/IeeeAccess2019
+ * branch            4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3 -> FETCH_HEAD
++ git --git-dir=/home/ekin/Desktop/cmp625/CMP625/.cache/plr.git cat-file -e '4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3^{commit}'
++ local stage
+++ mktemp -d /home/ekin/Desktop/cmp625/CMP625/.cache/setup-XXXXXX
++ stage=/home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD
++ mkdir /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns3
++ git --git-dir=/home/ekin/Desktop/cmp625/CMP625/.cache/ns3.git archive ac2ed49e020860381f9f69753dd94f6fc12e1edf
++ tar -xf - -C /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns3
+++ cat /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns3/VERSION
++ [[ 3-dev == 3-dev ]]
++ printf '3.29\n'
++ git --git-dir=/home/ekin/Desktop/cmp625/CMP625/.cache/plr.git archive 4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3 ns-3.29/src/aodv-power-light-reverse-etx ns-3.29/src/wifi-power-tag ns-3.29/src/applications ns-3.29/scratch/multi-run-power.cc
++ tar -xf - -C /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD
++ cp -a /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns-3.29/src/aodv-power-light-reverse-etx/. /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns3/src/aodv/
++ cp -a /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns-3.29/src/wifi-power-tag/. /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns3/src/wifi/
++ cp -a /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns-3.29/src/applications/. /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns3/src/applications/
++ cp /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns-3.29/scratch/multi-run-power.cc /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns3/scratch/
++ printf '%s\n' ac2ed49e020860381f9f69753dd94f6fc12e1edf
++ printf '%s\n' 4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3
+++ cat /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns3/VERSION
++ [[ 3.29 == 3.29 ]]
++ mv /home/ekin/Desktop/cmp625/CMP625/.cache/setup-KoNzvD/ns3 /home/ekin/Desktop/cmp625/CMP625/ns3
++ printf 'Baseline source is ready in %s/ns3\n' /home/ekin/Desktop/cmp625/CMP625
+Baseline source is ready in /home/ekin/Desktop/cmp625/CMP625/ns3
++ printf 'Imported source retains its upstream license headers and LICENSE file.\n'
+Imported source retains its upstream license headers and LICENSE file.
+++ printf 'Stage exit code: %s\n' 0
+Stage exit code: 0

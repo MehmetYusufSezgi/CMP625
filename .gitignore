@@ -1,0 +1,15 @@
+# Downloaded source caches and interrupted setup staging directories
+/.cache/
+
+# Each computer builds its own ns-3 binaries and Waf configuration
+/ns3/build/
+/ns3/.waf*/
+/ns3/.lock-waf*
+/ns3/config.log
+__pycache__/
+*.pyc
+
+# Large generated simulation traces; keep small CSV results and logs
+/results/**/*.pcap
+/results/**/*.tr
+/results/**/*.xml

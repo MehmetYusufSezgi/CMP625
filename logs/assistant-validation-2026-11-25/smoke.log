@@ -1,0 +1,53 @@
+2026-11-25T07:33:05+03:00
+a6f07839b304
+Project: /workspace/scratch/c37eb9e71e8c/CMP625
+cf9db13ff73bf954206418b20f08b14180e87c0e
+A  .gitignore
+M  README.md
+A  docs/PROJECT_LOG.md
+A  docs/SETUP.md
+A  scripts/build-baseline.sh
+A  scripts/common.sh
+A  scripts/run-smoke.sh
+A  scripts/setup-baseline.sh
+A  scripts/sources.sh
+?? logs/
+?? ns3/
++ main
++ require_python310
++ /workspace/scratch/c37eb9e71e8c/CMP625/.cache/python/cpython-3.10.22-linux-x86_64-gnu/bin/python3.10 -c '
+import sys
+if sys.version_info[:2] != (3, 10):
+    raise SystemExit("Use Python 3.10 for this baseline; set CMP625_PYTHON to its executable.")
+print(sys.version)
+'
+3.10.22 (main, Oct  9 2026, 15:21:30) [Clang 22.1.3 ]
++ [[ -d /workspace/scratch/c37eb9e71e8c/CMP625/ns3/build ]]
++ mkdir -p /workspace/scratch/c37eb9e71e8c/CMP625/results
++ local machine stamp run_dir arguments
+++ hostname
+++ tr -d '\n'
+++ tr -c '[:alnum:]_-' _
++ machine=a6f07839b304
+++ date +%Y%m%d-%H%M%S
++ stamp=20261125-073305
+++ mktemp -d /workspace/scratch/c37eb9e71e8c/CMP625/results/smoke-a6f07839b304-20261125-073305-XXXXXX
++ run_dir=/workspace/scratch/c37eb9e71e8c/CMP625/results/smoke-a6f07839b304-20261125-073305-DrIzcn
++ arguments='multi-run-power --scenario=3 --nNodes=50 --nSources=5 --simTime=30 --width=1000 --height=1000 --nodeSpeed=10 --routingProtocol=2 --routingProtocolName=APLRE --a=0.005 --b=60 --startRngRun=1 --stopRngRun=1 --currentRngRun=1 --externalRngRunControl=1 --csvFileNamePrefix=plr-smoke'
++ printf '%s\n' 'multi-run-power --scenario=3 --nNodes=50 --nSources=5 --simTime=30 --width=1000 --height=1000 --nodeSpeed=10 --routingProtocol=2 --routingProtocolName=APLRE --a=0.005 --b=60 --startRngRun=1 --stopRngRun=1 --currentRngRun=1 --externalRngRunControl=1 --csvFileNamePrefix=plr-smoke'
++ cp /workspace/scratch/c37eb9e71e8c/CMP625/ns3/NS3_COMMIT.txt /workspace/scratch/c37eb9e71e8c/CMP625/results/smoke-a6f07839b304-20261125-073305-DrIzcn/
++ cp /workspace/scratch/c37eb9e71e8c/CMP625/ns3/UPSTREAM_COMMIT.txt /workspace/scratch/c37eb9e71e8c/CMP625/results/smoke-a6f07839b304-20261125-073305-DrIzcn/
++ cd /workspace/scratch/c37eb9e71e8c/CMP625/ns3
++ /workspace/scratch/c37eb9e71e8c/CMP625/.cache/python/cpython-3.10.22-linux-x86_64-gnu/bin/python3.10 waf --cwd=/workspace/scratch/c37eb9e71e8c/CMP625/results/smoke-a6f07839b304-20261125-073305-DrIzcn --run 'multi-run-power --scenario=3 --nNodes=50 --nSources=5 --simTime=30 --width=1000 --height=1000 --nodeSpeed=10 --routingProtocol=2 --routingProtocolName=APLRE --a=0.005 --b=60 --startRngRun=1 --stopRngRun=1 --currentRngRun=1 --externalRngRunControl=1 --csvFileNamePrefix=plr-smoke'
+Waf: Entering directory `/workspace/scratch/c37eb9e71e8c/CMP625/ns3/build'
+Waf: Leaving directory `/workspace/scratch/c37eb9e71e8c/CMP625/ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (2.269s)
++ /workspace/scratch/c37eb9e71e8c/CMP625/.cache/python/cpython-3.10.22-linux-x86_64-gnu/bin/python3.10 - /workspace/scratch/c37eb9e71e8c/CMP625/results/smoke-a6f07839b304-20261125-073305-DrIzcn/plr-smoke-Summary.csv
+Flows: 5; sent: 595; received: 595; lost: 0
+Reported delivery ratio: 100%
+Smoke check passed; multihop behavior and metric correctness need separate validation.
++ printf 'Results: %s\n' /workspace/scratch/c37eb9e71e8c/CMP625/results/smoke-a6f07839b304-20261125-073305-DrIzcn
+Results: /workspace/scratch/c37eb9e71e8c/CMP625/results/smoke-a6f07839b304-20261125-073305-DrIzcn
+++ printf 'Stage exit code: %s\n' 0
+Stage exit code: 0
