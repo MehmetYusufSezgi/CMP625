@@ -1,0 +1,48 @@
+2026-11-25T07:41:34+03:00
+ekin
+Project: /home/ekin/Desktop/cmp625/CMP625
+cf9db13ff73bf954206418b20f08b14180e87c0e
+ M README.md
+?? .gitignore
+?? docs/
+?? logs/
+?? ns3/
+?? scripts/
++ main
++ require_python310
++ python3 -c '
+import sys
+if sys.version_info[:2] != (3, 10):
+    raise SystemExit("Use Python 3.10 for this baseline; set CMP625_PYTHON to its executable.")
+print(sys.version)
+'
+3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]
++ [[ -d /home/ekin/Desktop/cmp625/CMP625/ns3/build ]]
++ mkdir -p /home/ekin/Desktop/cmp625/CMP625/results
++ local machine stamp run_dir arguments
+++ hostname
+++ tr -d '\n'
+++ tr -c '[:alnum:]_-' _
++ machine=ekin
+++ date +%Y%m%d-%H%M%S
++ stamp=20261125-074134
+++ mktemp -d /home/ekin/Desktop/cmp625/CMP625/results/smoke-ekin-20261125-074134-XXXXXX
++ run_dir=/home/ekin/Desktop/cmp625/CMP625/results/smoke-ekin-20261125-074134-hXvaDL
++ arguments='multi-run-power --scenario=3 --nNodes=50 --nSources=5 --simTime=30 --width=1000 --height=1000 --nodeSpeed=10 --routingProtocol=2 --routingProtocolName=APLRE --a=0.005 --b=60 --startRngRun=1 --stopRngRun=1 --currentRngRun=1 --externalRngRunControl=1 --csvFileNamePrefix=plr-smoke'
++ printf '%s\n' 'multi-run-power --scenario=3 --nNodes=50 --nSources=5 --simTime=30 --width=1000 --height=1000 --nodeSpeed=10 --routingProtocol=2 --routingProtocolName=APLRE --a=0.005 --b=60 --startRngRun=1 --stopRngRun=1 --currentRngRun=1 --externalRngRunControl=1 --csvFileNamePrefix=plr-smoke'
++ cp /home/ekin/Desktop/cmp625/CMP625/ns3/NS3_COMMIT.txt /home/ekin/Desktop/cmp625/CMP625/results/smoke-ekin-20261125-074134-hXvaDL/
++ cp /home/ekin/Desktop/cmp625/CMP625/ns3/UPSTREAM_COMMIT.txt /home/ekin/Desktop/cmp625/CMP625/results/smoke-ekin-20261125-074134-hXvaDL/
++ cd /home/ekin/Desktop/cmp625/CMP625/ns3
++ python3 waf --cwd=/home/ekin/Desktop/cmp625/CMP625/results/smoke-ekin-20261125-074134-hXvaDL --run 'multi-run-power --scenario=3 --nNodes=50 --nSources=5 --simTime=30 --width=1000 --height=1000 --nodeSpeed=10 --routingProtocol=2 --routingProtocolName=APLRE --a=0.005 --b=60 --startRngRun=1 --stopRngRun=1 --currentRngRun=1 --externalRngRunControl=1 --csvFileNamePrefix=plr-smoke'
+Waf: Entering directory `/home/ekin/Desktop/cmp625/CMP625/ns3/build'
+Waf: Leaving directory `/home/ekin/Desktop/cmp625/CMP625/ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.393s)
++ python3 - /home/ekin/Desktop/cmp625/CMP625/results/smoke-ekin-20261125-074134-hXvaDL/plr-smoke-Summary.csv
+Flows: 5; sent: 595; received: 595; lost: 0
+Reported delivery ratio: 100%
+Smoke check passed; multihop behavior and metric correctness need separate validation.
++ printf 'Results: %s\n' /home/ekin/Desktop/cmp625/CMP625/results/smoke-ekin-20261125-074134-hXvaDL
+Results: /home/ekin/Desktop/cmp625/CMP625/results/smoke-ekin-20261125-074134-hXvaDL
+++ printf 'Stage exit code: %s\n' 0
+Stage exit code: 0

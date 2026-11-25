@@ -1,0 +1,1 @@
+multi-run-power --scenario=3 --nNodes=50 --nSources=5 --simTime=30 --width=1000 --height=1000 --nodeSpeed=10 --routingProtocol=2 --routingProtocolName=APLRE --a=0.005 --b=60 --startRngRun=1 --stopRngRun=1 --currentRngRun=1 --externalRngRunControl=1 --csvFileNamePrefix=plr-smoke

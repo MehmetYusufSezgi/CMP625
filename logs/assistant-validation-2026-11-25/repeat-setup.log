@@ -1,0 +1,27 @@
+2026-11-25T07:30:08+03:00
+a6f07839b304
+Project: /workspace/scratch/c37eb9e71e8c/CMP625
+cf9db13ff73bf954206418b20f08b14180e87c0e
+?? .gitignore
+?? docs/
+?? logs/
+?? ns3/
+?? scripts/
++ main
++ command -v git
+/usr/local/bin/git
++ command -v tar
+/usr/bin/tar
++ mkdir -p /workspace/scratch/c37eb9e71e8c/CMP625/.cache
++ [[ -e /workspace/scratch/c37eb9e71e8c/CMP625/ns3 ]]
+++ cat /workspace/scratch/c37eb9e71e8c/CMP625/ns3/VERSION
++ [[ 3.29 == 3.29 ]]
+++ cat /workspace/scratch/c37eb9e71e8c/CMP625/ns3/NS3_COMMIT.txt
++ [[ ac2ed49e020860381f9f69753dd94f6fc12e1edf == \a\c\2\e\d\4\9\e\0\2\0\8\6\0\3\8\1\f\9\f\6\9\7\5\3\d\d\9\4\f\6\f\c\1\2\e\1\e\d\f ]]
+++ cat /workspace/scratch/c37eb9e71e8c/CMP625/ns3/UPSTREAM_COMMIT.txt
++ [[ 4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3 == \4\a\7\e\e\5\8\a\6\2\4\d\e\5\a\1\3\a\3\3\e\8\f\c\4\7\f\7\e\d\a\9\8\8\f\3\f\7\e\3 ]]
++ printf 'Existing baseline found; keeping its source and any local changes.\n'
+Existing baseline found; keeping its source and any local changes.
++ return
+++ printf 'Stage exit code: %s\n' 0
+Stage exit code: 0

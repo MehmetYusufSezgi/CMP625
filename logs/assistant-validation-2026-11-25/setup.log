@@ -1,0 +1,53 @@
+2026-11-25T07:29:56+03:00
+a6f07839b304
+Project: /workspace/scratch/c37eb9e71e8c/CMP625
+cf9db13ff73bf954206418b20f08b14180e87c0e
+?? .gitignore
+?? docs/
+?? logs/
+?? scripts/
++ main
++ command -v git
+/usr/local/bin/git
++ command -v tar
+/usr/bin/tar
++ mkdir -p /workspace/scratch/c37eb9e71e8c/CMP625/.cache
++ [[ -e /workspace/scratch/c37eb9e71e8c/CMP625/ns3 ]]
++ fetch_source ns3 https://github.com/nsnam/ns-3-dev-git.git ac2ed49e020860381f9f69753dd94f6fc12e1edf
++ local name=ns3 url=https://github.com/nsnam/ns-3-dev-git.git revision=ac2ed49e020860381f9f69753dd94f6fc12e1edf
++ local cache=/workspace/scratch/c37eb9e71e8c/CMP625/.cache/ns3.git
++ [[ ! -d /workspace/scratch/c37eb9e71e8c/CMP625/.cache/ns3.git ]]
++ git --git-dir=/workspace/scratch/c37eb9e71e8c/CMP625/.cache/ns3.git cat-file -e 'ac2ed49e020860381f9f69753dd94f6fc12e1edf^{commit}'
++ git --git-dir=/workspace/scratch/c37eb9e71e8c/CMP625/.cache/ns3.git cat-file -e 'ac2ed49e020860381f9f69753dd94f6fc12e1edf^{commit}'
++ fetch_source plr https://github.com/neje/IeeeAccess2019.git 4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3
++ local name=plr url=https://github.com/neje/IeeeAccess2019.git revision=4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3
++ local cache=/workspace/scratch/c37eb9e71e8c/CMP625/.cache/plr.git
++ [[ ! -d /workspace/scratch/c37eb9e71e8c/CMP625/.cache/plr.git ]]
++ git --git-dir=/workspace/scratch/c37eb9e71e8c/CMP625/.cache/plr.git cat-file -e '4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3^{commit}'
++ git --git-dir=/workspace/scratch/c37eb9e71e8c/CMP625/.cache/plr.git cat-file -e '4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3^{commit}'
++ local stage
+++ mktemp -d /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-XXXXXX
++ stage=/workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8
++ mkdir /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns3
++ git --git-dir=/workspace/scratch/c37eb9e71e8c/CMP625/.cache/ns3.git archive ac2ed49e020860381f9f69753dd94f6fc12e1edf
++ tar -xf - -C /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns3
+++ cat /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns3/VERSION
++ [[ 3-dev == 3-dev ]]
++ printf '3.29\n'
++ tar -xf - -C /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8
++ git --git-dir=/workspace/scratch/c37eb9e71e8c/CMP625/.cache/plr.git archive 4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3 ns-3.29/src/aodv-power-light-reverse-etx ns-3.29/src/wifi-power-tag ns-3.29/src/applications ns-3.29/scratch/multi-run-power.cc
++ cp -a /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns-3.29/src/aodv-power-light-reverse-etx/. /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns3/src/aodv/
++ cp -a /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns-3.29/src/wifi-power-tag/. /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns3/src/wifi/
++ cp -a /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns-3.29/src/applications/. /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns3/src/applications/
++ cp /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns-3.29/scratch/multi-run-power.cc /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns3/scratch/
++ printf '%s\n' ac2ed49e020860381f9f69753dd94f6fc12e1edf
++ printf '%s\n' 4a7ee58a624de5a13a33e8fc47f7eda988f3f7e3
+++ cat /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns3/VERSION
++ [[ 3.29 == 3.29 ]]
++ mv /workspace/scratch/c37eb9e71e8c/CMP625/.cache/setup-xkiNE8/ns3 /workspace/scratch/c37eb9e71e8c/CMP625/ns3
++ printf 'Baseline source is ready in %s/ns3\n' /workspace/scratch/c37eb9e71e8c/CMP625
+Baseline source is ready in /workspace/scratch/c37eb9e71e8c/CMP625/ns3
++ printf 'Imported source retains its upstream license headers and LICENSE file.\n'
+Imported source retains its upstream license headers and LICENSE file.
+++ printf 'Stage exit code: %s\n' 0
+Stage exit code: 0
