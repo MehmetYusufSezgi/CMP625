@@ -1,0 +1,22 @@
+Examples of AODV activity:
++0.000000000s 0 [node 0] LPP timer starting at time 31ms
++0.000000000s 1 [node 1] LPP timer starting at time 86ms
++0.000000000s 2 [node 2] LPP timer starting at time 16ms
++0.000000000s 3 [node 3] LPP timer starting at time 78ms
++0.000000000s 4 [node 4] LPP timer starting at time 43ms
++0.000000000s 5 [node 5] LPP timer starting at time 54ms
++0.000000000s 6 [node 6] LPP timer starting at time 34ms
++0.000000000s 7 [node 7] LPP timer starting at time 22ms
++0.000000000s 8 [node 8] LPP timer starting at time 100ms
++0.000000000s 9 [node 9] LPP timer starting at time 77ms
++0.000000000s 10 [node 10] LPP timer starting at time 62ms
++0.000000000s 11 [node 11] LPP timer starting at time 6ms
++0.000000000s 12 [node 12] LPP timer starting at time 36ms
++0.000000000s 13 [node 13] LPP timer starting at time 36ms
++0.000000000s 14 [node 14] LPP timer starting at time 28ms
+
+Route-request transmissions:
+0
+
+Existing-route uses:
+595

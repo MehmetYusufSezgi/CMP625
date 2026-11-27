@@ -543,3 +543,40 @@ Added `scripts/start-session.sh` to record future manual project commands and te
 Correction to the earlier staging instruction: include `results/` as well as `logs/`; otherwise the CSV output would stay local. Large traces and build/cache files are covered by `.gitignore`.
 
 Assistant validation of the new session recorder: Bash syntax passed; a recorded shell captured a test marker and preserved an explicit exit status of 7. The nonzero status was intentional to verify error-status recording.
+
+## Step 16 - Inspect baseline route discovery
+
+Date: 2026-11-27
+
+Purpose: determine whether the existing smoke scenario discovers multihop routes.
+
+Static source audit:
+- Received probes update neighbor reception counts and the latest signal power.
+- Link costs are rounded to 8-bit integers; cumulative route costs saturate at 255.
+- RREQ and RREP processing accumulate these costs.
+- The RREP sequence-number update conditions require a targeted correctness check before modifying routing.
+
+Action: repeat the unchanged smoke test with AodvRoutingProtocol debug logging enabled.
+Routing implementation and simulation settings remain unchanged.
+Interpretation of the diagnostic output is pending.
+
+Diagnostic exit status: 0
+Diagnostic log: /home/ekin/Desktop/cmp625/CMP625/logs/route-audit-20261127-072149-iiC1dv.log
+
+## Step 17 - Controlled multihop check
+
+Date: 2026-11-27T07:37:01+03:00
+
+Command: bash scripts/run-multihop-check.sh
+
+Purpose: test a forced two-hop path, disable its relay, and check a direct-link control.
+
+Source commit: f0555f68aacd706fdafab5c0e96fb13310691618 (see raw log for working-tree status).
+
+Stage exit status: 0
+
+Results: /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5
+
+Outcome: all three case assertions passed; see per-case summary.csv, forwarding.csv and routing-tables.txt.
+
+The routing algorithm is unchanged. This checks one controlled topology, not loop freedom or performance under mobility.

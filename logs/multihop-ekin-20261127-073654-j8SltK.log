@@ -1,0 +1,79 @@
+2026-11-27T07:36:54+03:00
+ekin
+Project: /home/ekin/Desktop/cmp625/CMP625
+f0555f68aacd706fdafab5c0e96fb13310691618
+ M docs/PROJECT_LOG.md
+?? docs/MULTIHOP_VALIDATION.md
+?? logs/assistant-multihop-validation-2026-11-27.tar.gz
+?? logs/multihop-ekin-20261127-073654-j8SltK.log
+?? logs/route-audit-20261127-072149-iiC1dv.log
+?? logs/route-audit-20261127-072149-iiC1dv.log.check.txt
+?? logs/route-audit-20261127-072149-iiC1dv.log.exit-status
+?? logs/smoke-ekin-20261127-072149-RdnF5F.log
+?? logs/smoke-ekin-20261127-072149-RdnF5F.log.exit-status
+?? ns3/scratch/plr-chain-check.cc
+?? results/smoke-ekin-20261127-072149-1AnNei/
+?? scripts/run-multihop-check.sh
++ main
++ require_python310
++ python3 -c '
+import sys
+if sys.version_info[:2] != (3, 10):
+    raise SystemExit("Use Python 3.10 for this baseline; set CMP625_PYTHON to its executable.")
+print(sys.version)
+'
+3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]
++ [[ -d /home/ekin/Desktop/cmp625/CMP625/ns3/build ]]
++ cd /home/ekin/Desktop/cmp625/CMP625/ns3
++ for case_name in chain chain-relay-off direct-relay-off
++ local layout=chain forwarding=1
++ case "$case_name" in
++ local case_dir=/home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain
++ local 'arguments=plr-chain-check --layout=chain --relayForwarding=1'
++ mkdir /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain
++ printf '%s\n' 'plr-chain-check --layout=chain --relayForwarding=1'
++ cp NS3_COMMIT.txt UPSTREAM_COMMIT.txt /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain/
++ NS_LOG='AodvRoutingProtocol=level_debug|prefix_time|prefix_node'
++ python3 waf --cwd=/home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain --run 'plr-chain-check --layout=chain --relayForwarding=1'
++ cat /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain/summary.csv
+layout,max_range_m,relay_forwarding,source_ip_tx,relay_ip_forward,received,source_rreq,passed
+chain,110,1,12,12,12,3,1
++ grep -aE '^Case:' /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain/console.log
+Case: chain; relay forwarding: 1; source IP sends: 12; relay forwards: 12; received: 12; source RREQ: 3; PASS
++ for case_name in chain chain-relay-off direct-relay-off
++ local layout=chain forwarding=1
++ case "$case_name" in
++ forwarding=0
++ local case_dir=/home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain-relay-off
++ local 'arguments=plr-chain-check --layout=chain --relayForwarding=0'
++ mkdir /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain-relay-off
++ printf '%s\n' 'plr-chain-check --layout=chain --relayForwarding=0'
++ cp NS3_COMMIT.txt UPSTREAM_COMMIT.txt /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain-relay-off/
++ NS_LOG='AodvRoutingProtocol=level_debug|prefix_time|prefix_node'
++ python3 waf --cwd=/home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain-relay-off --run 'plr-chain-check --layout=chain --relayForwarding=0'
++ cat /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain-relay-off/summary.csv
+layout,max_range_m,relay_forwarding,source_ip_tx,relay_ip_forward,received,source_rreq,passed
+chain,110,0,12,0,0,3,1
++ grep -aE '^Case:' /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/chain-relay-off/console.log
+Case: chain; relay forwarding: 0; source IP sends: 12; relay forwards: 0; received: 0; source RREQ: 3; PASS
++ for case_name in chain chain-relay-off direct-relay-off
++ local layout=chain forwarding=1
++ case "$case_name" in
++ layout=direct
++ forwarding=0
++ local case_dir=/home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/direct-relay-off
++ local 'arguments=plr-chain-check --layout=direct --relayForwarding=0'
++ mkdir /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/direct-relay-off
++ printf '%s\n' 'plr-chain-check --layout=direct --relayForwarding=0'
++ cp NS3_COMMIT.txt UPSTREAM_COMMIT.txt /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/direct-relay-off/
++ NS_LOG='AodvRoutingProtocol=level_debug|prefix_time|prefix_node'
++ python3 waf --cwd=/home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/direct-relay-off --run 'plr-chain-check --layout=direct --relayForwarding=0'
++ cat /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/direct-relay-off/summary.csv
+layout,max_range_m,relay_forwarding,source_ip_tx,relay_ip_forward,received,source_rreq,passed
+direct,250,0,12,0,12,0,1
++ grep -aE '^Case:' /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5/direct-relay-off/console.log
+Case: direct; relay forwarding: 0; source IP sends: 12; relay forwards: 0; received: 12; source RREQ: 0; PASS
++ printf 'All three controlled cases passed. Results: %s\n' /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5
+All three controlled cases passed. Results: /home/ekin/Desktop/cmp625/CMP625/results/multihop-ekin-20261127-073654-K9hzU5
+++ printf 'Stage exit code: %s\n' 0
+Stage exit code: 0

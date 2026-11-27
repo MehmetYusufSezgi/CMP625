@@ -1,0 +1,422 @@
+Waf: Entering directory `/home/ekin/Desktop/cmp625/CMP625/ns3/build'
+Waf: Leaving directory `/home/ekin/Desktop/cmp625/CMP625/ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.387s)
++0.000000000s 0 [node 0] LPP timer starting at time 63ms
++0.000000000s 1 [node 1] LPP timer starting at time 49ms
++0.000000000s 2 [node 2] LPP timer starting at time 89ms
++0.053871333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++0.053871333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++0.068568333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++0.068568667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++0.090069333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++0.090069667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++1.057609333s 0 [node 0] Updating VALID route
++1.057609333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++1.057609333s 2 [node 2] Updating VALID route
++1.057609333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++1.070073333s 1 [node 1] Updating VALID route
++1.070073333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++1.070073667s 2 [node 2] Updating VALID route
++1.070073667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++1.089438333s 1 [node 1] Updating VALID route
++1.089438333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++1.089438667s 0 [node 0] Updating VALID route
++1.089438667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++2.058957333s 0 [node 0] Updating VALID route
++2.058957333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++2.058957333s 2 [node 2] Updating VALID route
++2.058957333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++2.070327333s 1 [node 1] Updating VALID route
++2.070327333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++2.070327667s 2 [node 2] Updating VALID route
++2.070327667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++2.094100333s 1 [node 1] Updating VALID route
++2.094100333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++2.094100667s 0 [node 0] Updating VALID route
++2.094100667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++3.058051333s 0 [node 0] Updating VALID route
++3.058051333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++3.058051333s 2 [node 2] Updating VALID route
++3.058051333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++3.069017333s 1 [node 1] Updating VALID route
++3.069017333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++3.069017667s 2 [node 2] Updating VALID route
++3.069017667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++3.093455333s 1 [node 1] Updating VALID route
++3.093455333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++3.093455667s 0 [node 0] Updating VALID route
++3.093455667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++4.055214333s 0 [node 0] Updating VALID route
++4.055214333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++4.055214333s 2 [node 2] Updating VALID route
++4.055214333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++4.063282333s 1 [node 1] Updating VALID route
++4.063282333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++4.063282667s 2 [node 2] Updating VALID route
++4.063282667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++4.095236333s 1 [node 1] Updating VALID route
++4.095236333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++4.095236667s 0 [node 0] Updating VALID route
++4.095236667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++5.058367333s 0 [node 0] Updating VALID route
++5.058367333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++5.058367333s 2 [node 2] Updating VALID route
++5.058367333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++5.064967333s 1 [node 1] Updating VALID route
++5.064967333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++5.064967667s 2 [node 2] Updating VALID route
++5.064967667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++5.091117333s 1 [node 1] Updating VALID route
++5.091117333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++5.091117667s 0 [node 0] Updating VALID route
++5.091117667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++6.057509333s 0 [node 0] Updating VALID route
++6.057509333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++6.057509333s 2 [node 2] Updating VALID route
++6.057509333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++6.065720333s 1 [node 1] Updating VALID route
++6.065720333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++6.065720667s 2 [node 2] Updating VALID route
++6.065720667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++6.095019333s 1 [node 1] Updating VALID route
++6.095019333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++6.095019667s 0 [node 0] Updating VALID route
++6.095019667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++7.050121333s 0 [node 0] Updating VALID route
++7.050121333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++7.050121333s 2 [node 2] Updating VALID route
++7.050121333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++7.068511333s 1 [node 1] Updating VALID route
++7.068511333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++7.068511667s 2 [node 2] Updating VALID route
++7.068511667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++7.098217333s 1 [node 1] Updating VALID route
++7.098217333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++7.098217667s 0 [node 0] Updating VALID route
++7.098217667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++8.057735333s 0 [node 0] Updating VALID route
++8.057735333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++8.057735333s 2 [node 2] Updating VALID route
++8.057735333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++8.068474333s 1 [node 1] Updating VALID route
++8.068474333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++8.068474667s 2 [node 2] Updating VALID route
++8.068474667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++8.094457333s 1 [node 1] Updating VALID route
++8.094457333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++8.094457667s 0 [node 0] Updating VALID route
++8.094457667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++9.051362333s 0 [node 0] Updating VALID route
++9.051362333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++9.051362333s 2 [node 2] Updating VALID route
++9.051362333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++9.065171333s 1 [node 1] Updating VALID route
++9.065171333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++9.065171667s 2 [node 2] Updating VALID route
++9.065171667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++9.094440333s 1 [node 1] Updating VALID route
++9.094440333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++9.094440667s 0 [node 0] Updating VALID route
++9.094440667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++10.052158333s 0 [node 0] Updating VALID route
++10.052158333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++10.052158333s 2 [node 2] Updating VALID route
++10.052158333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++10.072990333s 1 [node 1] Updating VALID route
++10.072990333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++10.072990667s 2 [node 2] Updating VALID route
++10.072990667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++10.098212333s 1 [node 1] Updating VALID route
++10.098212333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++10.098212667s 0 [node 0] Updating VALID route
++10.098212667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++11.052100333s 0 [node 0] Updating VALID route
++11.052100333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++11.052100333s 2 [node 2] Updating VALID route
++11.052100333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++11.071115333s 1 [node 1] Updating VALID route
++11.071115333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++11.071115667s 2 [node 2] Updating VALID route
++11.071115667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++11.092988333s 1 [node 1] Updating VALID route
++11.092988333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++11.092988667s 0 [node 0] Updating VALID route
++11.092988667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++12.053419333s 0 [node 0] Updating VALID route
++12.053419333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++12.053419333s 2 [node 2] Updating VALID route
++12.053419333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++12.066662333s 1 [node 1] Updating VALID route
++12.066662333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++12.066662667s 2 [node 2] Updating VALID route
++12.066662667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++12.096389333s 1 [node 1] Updating VALID route
++12.096389333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++12.096389667s 0 [node 0] Updating VALID route
++12.096389667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++13.051259333s 0 [node 0] Updating VALID route
++13.051259333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++13.051259333s 2 [node 2] Updating VALID route
++13.051259333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++13.070765333s 1 [node 1] Updating VALID route
++13.070765333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++13.070765667s 2 [node 2] Updating VALID route
++13.070765667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++13.089877333s 1 [node 1] Updating VALID route
++13.089877333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++13.089877667s 0 [node 0] Updating VALID route
++13.089877667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++14.055327333s 0 [node 0] Updating VALID route
++14.055327333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++14.055327333s 2 [node 2] Updating VALID route
++14.055327333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++14.072149333s 1 [node 1] Updating VALID route
++14.072149333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++14.072149667s 2 [node 2] Updating VALID route
++14.072149667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++14.096647333s 1 [node 1] Updating VALID route
++14.096647333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++14.096647667s 0 [node 0] Updating VALID route
++14.096647667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++15.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++15.000000000s 0 [node 0] Updating VALID route
++15.000000000s 0 [node 0] Updating VALID route
++15.001920001s 2 [node 2] Updating VALID route
++15.001920001s 2 [node 2] Updating VALID route
++15.057189333s 0 [node 0] Updating VALID route
++15.057189333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++15.057189333s 2 [node 2] Updating VALID route
++15.057189333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++15.066687333s 1 [node 1] Updating VALID route
++15.066687333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++15.066687667s 2 [node 2] Updating VALID route
++15.066687667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++15.093766333s 1 [node 1] Updating VALID route
++15.093766333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++15.093766667s 0 [node 0] Updating VALID route
++15.093766667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++16.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++16.000000000s 0 [node 0] Updating VALID route
++16.000000000s 0 [node 0] Updating VALID route
++16.000216667s 2 [node 2] Updating VALID route
++16.000216667s 2 [node 2] Updating VALID route
++16.054222333s 0 [node 0] Updating VALID route
++16.054222333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++16.054222333s 2 [node 2] Updating VALID route
++16.054222333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++16.072167333s 1 [node 1] Updating VALID route
++16.072167333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++16.072167667s 2 [node 2] Updating VALID route
++16.072167667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++16.090847333s 1 [node 1] Updating VALID route
++16.090847333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++16.090847667s 0 [node 0] Updating VALID route
++16.090847667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++17.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++17.000000000s 0 [node 0] Updating VALID route
++17.000000000s 0 [node 0] Updating VALID route
++17.000216667s 2 [node 2] Updating VALID route
++17.000216667s 2 [node 2] Updating VALID route
++17.052503333s 0 [node 0] Updating VALID route
++17.052503333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++17.052503333s 2 [node 2] Updating VALID route
++17.052503333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++17.072636333s 1 [node 1] Updating VALID route
++17.072636333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++17.072636667s 2 [node 2] Updating VALID route
++17.072636667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++17.094617333s 1 [node 1] Updating VALID route
++17.094617333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++17.094617667s 0 [node 0] Updating VALID route
++17.094617667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++18.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++18.000000000s 0 [node 0] Updating VALID route
++18.000000000s 0 [node 0] Updating VALID route
++18.000216667s 2 [node 2] Updating VALID route
++18.000216667s 2 [node 2] Updating VALID route
++18.056448333s 0 [node 0] Updating VALID route
++18.056448333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++18.056448333s 2 [node 2] Updating VALID route
++18.056448333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++18.069847333s 1 [node 1] Updating VALID route
++18.069847333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++18.069847667s 2 [node 2] Updating VALID route
++18.069847667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++18.098872333s 1 [node 1] Updating VALID route
++18.098872333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++18.098872667s 0 [node 0] Updating VALID route
++18.098872667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++19.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++19.000000000s 0 [node 0] Updating VALID route
++19.000000000s 0 [node 0] Updating VALID route
++19.000216667s 2 [node 2] Updating VALID route
++19.000216667s 2 [node 2] Updating VALID route
++19.055028333s 0 [node 0] Updating VALID route
++19.055028333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++19.055028333s 2 [node 2] Updating VALID route
++19.055028333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++19.066596333s 1 [node 1] Updating VALID route
++19.066596333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++19.066596667s 2 [node 2] Updating VALID route
++19.066596667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++19.093481333s 1 [node 1] Updating VALID route
++19.093481333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++19.093481667s 0 [node 0] Updating VALID route
++19.093481667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++20.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++20.000000000s 0 [node 0] Updating VALID route
++20.000000000s 0 [node 0] Updating VALID route
++20.000216667s 2 [node 2] Updating VALID route
++20.000216667s 2 [node 2] Updating VALID route
++20.054889333s 0 [node 0] Updating VALID route
++20.054889333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++20.054889333s 2 [node 2] Updating VALID route
++20.054889333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++20.073141333s 1 [node 1] Updating VALID route
++20.073141333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++20.073141667s 2 [node 2] Updating VALID route
++20.073141667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++20.093383333s 1 [node 1] Updating VALID route
++20.093383333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++20.093383667s 0 [node 0] Updating VALID route
++20.093383667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++21.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++21.000000000s 0 [node 0] Updating VALID route
++21.000000000s 0 [node 0] Updating VALID route
++21.000216667s 2 [node 2] Updating VALID route
++21.000216667s 2 [node 2] Updating VALID route
++21.056963333s 0 [node 0] Updating VALID route
++21.056963333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++21.056963333s 2 [node 2] Updating VALID route
++21.056963333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++21.064638333s 1 [node 1] Updating VALID route
++21.064638333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++21.064638667s 2 [node 2] Updating VALID route
++21.064638667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++21.096981333s 1 [node 1] Updating VALID route
++21.096981333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++21.096981667s 0 [node 0] Updating VALID route
++21.096981667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++22.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++22.000000000s 0 [node 0] Updating VALID route
++22.000000000s 0 [node 0] Updating VALID route
++22.000216667s 2 [node 2] Updating VALID route
++22.000216667s 2 [node 2] Updating VALID route
++22.059134333s 0 [node 0] Updating VALID route
++22.059134333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++22.059134333s 2 [node 2] Updating VALID route
++22.059134333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++22.069560333s 1 [node 1] Updating VALID route
++22.069560333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++22.069560667s 2 [node 2] Updating VALID route
++22.069560667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++22.090722333s 1 [node 1] Updating VALID route
++22.090722333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++22.090722667s 0 [node 0] Updating VALID route
++22.090722667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++23.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++23.000000000s 0 [node 0] Updating VALID route
++23.000000000s 0 [node 0] Updating VALID route
++23.000216667s 2 [node 2] Updating VALID route
++23.000216667s 2 [node 2] Updating VALID route
++23.051632333s 0 [node 0] Updating VALID route
++23.051632333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++23.051632333s 2 [node 2] Updating VALID route
++23.051632333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++23.072534333s 1 [node 1] Updating VALID route
++23.072534333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++23.072534667s 2 [node 2] Updating VALID route
++23.072534667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++23.099223333s 1 [node 1] Updating VALID route
++23.099223333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++23.099223667s 0 [node 0] Updating VALID route
++23.099223667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++24.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++24.000000000s 0 [node 0] Updating VALID route
++24.000000000s 0 [node 0] Updating VALID route
++24.000216667s 2 [node 2] Updating VALID route
++24.000216667s 2 [node 2] Updating VALID route
++24.057370333s 0 [node 0] Updating VALID route
++24.057370333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++24.057370333s 2 [node 2] Updating VALID route
++24.057370333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++24.063306333s 1 [node 1] Updating VALID route
++24.063306333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++24.063306667s 2 [node 2] Updating VALID route
++24.063306667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++24.090229333s 1 [node 1] Updating VALID route
++24.090229333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++24.090229667s 0 [node 0] Updating VALID route
++24.090229667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++25.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++25.000000000s 0 [node 0] Updating VALID route
++25.000000000s 0 [node 0] Updating VALID route
++25.000216667s 2 [node 2] Updating VALID route
++25.000216667s 2 [node 2] Updating VALID route
++25.056339333s 0 [node 0] Updating VALID route
++25.056339333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++25.056339333s 2 [node 2] Updating VALID route
++25.056339333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++25.071446333s 1 [node 1] Updating VALID route
++25.071446333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++25.071446667s 2 [node 2] Updating VALID route
++25.071446667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++25.098280333s 1 [node 1] Updating VALID route
++25.098280333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++25.098280667s 0 [node 0] Updating VALID route
++25.098280667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++26.000000000s 0 [node 0] Exist route to 10.2.0.3 from interface 10.2.0.1
++26.000000000s 0 [node 0] Updating VALID route
++26.000000000s 0 [node 0] Updating VALID route
++26.000216667s 2 [node 2] Updating VALID route
++26.000216667s 2 [node 2] Updating VALID route
++26.052098333s 0 [node 0] Updating VALID route
++26.052098333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++26.052098333s 2 [node 2] Updating VALID route
++26.052098333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++26.064352333s 1 [node 1] Updating VALID route
++26.064352333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++26.064352667s 2 [node 2] Updating VALID route
++26.064352667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++26.095018333s 1 [node 1] Updating VALID route
++26.095018333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++26.095018667s 0 [node 0] Updating VALID route
++26.095018667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++27.050672333s 0 [node 0] Updating VALID route
++27.050672333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++27.050672333s 2 [node 2] Updating VALID route
++27.050672333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++27.064926333s 1 [node 1] Updating VALID route
++27.064926333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++27.064926667s 2 [node 2] Updating VALID route
++27.064926667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++27.097349333s 1 [node 1] Updating VALID route
++27.097349333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++27.097349667s 0 [node 0] Updating VALID route
++27.097349667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++28.052632333s 0 [node 0] Updating VALID route
++28.052632333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++28.052632333s 2 [node 2] Updating VALID route
++28.052632333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++28.065697333s 1 [node 1] Updating VALID route
++28.065697333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++28.065697667s 2 [node 2] Updating VALID route
++28.065697667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++28.089281333s 1 [node 1] Updating VALID route
++28.089281333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++28.089281667s 0 [node 0] Updating VALID route
++28.089281667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
++29.055415333s 0 [node 0] Updating VALID route
++29.055415333s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.2 to 10.2.0.1
++29.055415333s 2 [node 2] Updating VALID route
++29.055415333s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.2 to 10.2.0.3
++29.067260333s 1 [node 1] Updating VALID route
++29.067260333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.1 to 10.2.0.2
++29.067260667s 2 [node 2] Updating VALID route
++29.067260667s 2 [node 2] AODV node 0x5d27e795acd0 received a AODV packet from 10.2.0.1 to 10.2.0.3
++29.093465333s 1 [node 1] Updating VALID route
++29.093465333s 1 [node 1] AODV node 0x5d27e7958690 received a AODV packet from 10.2.0.3 to 10.2.0.2
++29.093465667s 0 [node 0] Updating VALID route
++29.093465667s 0 [node 0] AODV node 0x5d27e7956080 received a AODV packet from 10.2.0.3 to 10.2.0.1
+Case: direct; relay forwarding: 0; source IP sends: 12; relay forwards: 0; received: 12; source RREQ: 0; PASS
